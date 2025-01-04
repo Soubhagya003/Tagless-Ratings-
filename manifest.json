@@ -1,0 +1,23 @@
+{ 
+ "manifest_version": 3, 
+ "name": "Tagless Ratings",
+ "version":"1.0",
+ "description":"View problem rating but hide tags on Codeforces",
+ "permissions":["scripting","activeTab"],
+ "host_permissions":["https://codeforces.com/*"],
+ "content_scripts":[
+    {
+        "matches":["https://codeforces.com/*"],
+        "js":["content.js"],
+        "css":["styles.css"]
+    }
+ ],
+ "background":{
+    "service_worker":"background.js"
+ }
+ 
+
+
+
+
+}

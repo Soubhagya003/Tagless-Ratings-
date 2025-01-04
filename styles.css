@@ -1,0 +1,22 @@
+.tag-box{
+    display: none ;
+
+}
+
+.tag-box[title="Difficulty"] {
+    display: inline !important;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin-left: 5px;
+}
+#tagbutt1 {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    cursor: pointer;
+}
